@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "github_site",
-    "currentPage": "Announcement.html",
+    "currentPage": "Photos.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1667,7 +1667,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Milwaukee",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Landscape",
@@ -1993,6 +1993,19 @@
                 "customStyle1": "display-7",
                 "caption": "Green Bay",
                 "active": false
+              },
+              {
+                "tags": "Landscape",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/118999817-3303970786306761-2597907033223092623-o-1680x2048.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/118999817-3303970786306761-2597907033223092623-o-1680x2048-800x975.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "",
+                "active": true
               }
             ]
           }
