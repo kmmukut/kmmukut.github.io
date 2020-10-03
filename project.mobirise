@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "github_site",
-    "currentPage": "Education.html",
+    "currentPage": "Photos.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1389,7 +1389,7 @@
       "components": [
         {
           "_params": {
-            "account": "khaledmosharrafmukut",
+            "account": "kmmukut",
             "showTitle": true,
             "layoutGridRadio": false,
             "imagesPerRowGrid": 4,
