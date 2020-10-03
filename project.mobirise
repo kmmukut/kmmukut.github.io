@@ -1816,7 +1816,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Street",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1826,10 +1826,10 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Monuments",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1842,7 +1842,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "People",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1855,7 +1855,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "People, Street",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1868,7 +1868,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Street",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1881,7 +1881,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Wild",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1894,7 +1894,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Monuments",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1907,7 +1907,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Street",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1920,7 +1920,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Others",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1933,7 +1933,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Others",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1946,7 +1946,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Wild",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1959,7 +1959,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Lake, Others",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1972,7 +1972,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Sunrise, Sunset, Lake",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1985,7 +1985,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Sunrise, Sunset, Lake",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1995,7 +1995,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ]
           }
