@@ -8,3 +8,8 @@ do
   cat test > $f
   rm test
 done
+
+
+git commit -a -m "Update Analytics"
+git push
+
