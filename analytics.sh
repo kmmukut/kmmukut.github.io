@@ -1,4 +1,6 @@
 #!/bin/bash
+git fetch 
+git pull
 FILES=./*.html
 for f in $FILES
 do
