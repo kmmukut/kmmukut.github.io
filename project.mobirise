@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "github_site",
-    "currentPage": "Resources.html",
+    "currentPage": "Photos.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2601,13 +2601,13 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202091-88502020-9-4-8-10-11.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/vMj8p7UVtOg",
-                "image": "@PROJECT_PATH@/assets/images/khaledmosharrafmukut-31935460-1517324751723758-3683709255535296512-n-1080x1080-800x800.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/khaledmosharrafmukut-31935460-1517324751723758-3683709255535296512-n-1080x1080-800x800-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1272.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1920x1272-800x530.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Animated",
@@ -2616,6 +2616,19 @@
                 "videoUrl": "https://www.youtube.com/watch?v=l5BsMtGm8BU",
                 "image": "@THEME_PATH@/components/_images/background8.jpg",
                 "thumb": "@THEME_PATH@/components/_images/background8.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202091-88502020-9-4-8-10-11.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/uTm4kOKg0AA",
+                "image": "@PROJECT_PATH@/assets/images/khaledmosharrafmukut-31935460-1517324751723758-3683709255535296512-n-1080x1080-800x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/khaledmosharrafmukut-31935460-1517324751723758-3683709255535296512-n-1080x1080-800x800-800x800.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
