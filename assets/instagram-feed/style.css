@@ -1,5 +1,7 @@
 .mbr-instagram-feed {
   position: relative; }
+  .mbr-instagram-feed .mbr-overlay {
+    z-index: 0; }
 
 .inst {
   width: 100%;
@@ -54,7 +56,7 @@
     width: 100%;
     height: 100%;
     background: white;
-    opacity: 0.8;
+    opacity: .4;
     top: 0;
     left: 0; }
   .inst__loader {
