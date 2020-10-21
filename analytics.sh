@@ -10,7 +10,7 @@ do
   cat test > $f
   rm test
 done
-
+sed -i '' '/mobirise.site/d' *.html
 
 git commit -a -m "Update Analytics"
 git push
