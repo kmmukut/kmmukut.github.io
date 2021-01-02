@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "github_site",
-    "currentPage": "Announcement.html",
+    "currentPage": "Photos.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1555,6 +1555,32 @@
                 "active": false
               },
               {
+                "tags": "Landscape, Lake, Sunrise/Sunset",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/20201229-164724-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/20201229-164724-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Emerald Bay State Park, CA",
+                "active": false
+              },
+              {
+                "tags": "Landscape, Reflection",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-5994-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5994-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Mead Lake and Hoover Dam, AR",
+                "active": false
+              },
+              {
                 "tags": "Landscape",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -1997,17 +2023,17 @@
                 "active": false
               },
               {
-                "tags": "Landscape",
+                "tags": "Lake",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/118999817-3303970786306761-2597907033223092623-o-1680x2048.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/118999817-3303970786306761-2597907033223092623-o-1680x2048-800x975.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-5580-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5580-2000x1500-800x600.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "",
-                "active": false
+                "caption": "Pyramid Lake, NV",
+                "active": true
               },
               {
                 "tags": "Wild",
@@ -2046,7 +2072,72 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "At Water Park, Milwaukee",
-                "active": true
+                "active": false
+              },
+              {
+                "tags": "Landscape, Mountains",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-5579-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5579-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "near Pyramid Lake, NV",
+                "active": false
+              },
+              {
+                "tags": "Falls",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-5578-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5578-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Barney Falls,CA",
+                "active": false
+              },
+              {
+                "tags": "Lake",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-5618-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5618-2000x1500-800x600.jpg",
+                "alt": "Sec",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Secret Cove, Lake Tahoe, NV",
+                "active": false
+              },
+              {
+                "tags": "Landscape",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/118999817-3303970786306761-2597907033223092623-o-1680x2048.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/118999817-3303970786306761-2597907033223092623-o-1680x2048-800x975.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "",
+                "active": false
+              },
+              {
+                "tags": "Landscape",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-5559-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-5559-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "At Water Park, Milwaukee",
+                "active": false
               }
             ]
           }
