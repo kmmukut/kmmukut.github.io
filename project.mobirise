@@ -71,7 +71,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 170,
+    "uniqCompNum": 171,
     "versionPublish": "5.2.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -1398,7 +1398,7 @@
             "rows": 2,
             "showMoreButton": true,
             "layoutSliderRadio": true,
-            "imagesPerRowSlider": 4,
+            "imagesPerRowSlider": "10",
             "spacing": 5,
             "fullWidth": true,
             "paddingTop": "2",
@@ -6137,7 +6137,69 @@
           },
           "_name": "content6",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"1\" value=\"18\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n\n\n            <div class=\"col-12col-md-8\">\n                <div class=\"media-container-row\">\n\n\n\n\n\n\n\n\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/mbr-1-228x114.png\" alt title>  \n                    </div>\n\n\n\n\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b><i>Dated: November 02, 2020</i></b><br><b>Passed PhD qualifying exam</b><br><b><br></b></p>\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Passed PhD proficiency exam with specialization in Energy and Thermo-Fluid Systems from Department of Mechanical Engineering, Marquette University.&nbsp;</p>\n                        </div>\n                    </div>\n\n\n\n\n\n\n                </div>\n            </div>\n        \n    \n</div></div></section>",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"1\" value=\"18\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n\n\n            <div class=\"col-12col-md-8\">\n                <div class=\"media-container-row\">\n\n\n\n\n\n\n\n\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://r.search.yahoo.com/_ylt=AwrC3CJrjXRfwi4AGAIPxQt.;_ylu=Y29sbwNiZjEEcG9zAzcEdnRpZAMEc2VjA3Ny/RV=2/RE=1601502699/RO=10/RU=https%3a%2f%2fepublications.marquette.edu%2fcgi%2fviewcontent.cgi%3farticle%3d1545%26context%3dtheses_open/RK=2/RS=uiZeaccBTGaXSgxZst5vi1YLf1s-\"><img src=\"@PROJECT_PATH@/assets/images/mbr-228x152.png\" alt=\"Mobirise\" title></a>  \n                    </div>\n\n\n\n\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b><i>Dated: March 19, 2021</i></b><br><b>Outstanding RA award for the Department of Mechanical Engineering</b><br><b><br></b></p>\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Awarded with the Outstanding RA for the Department of Mechanical Engineering for my work as a research assistant in the Computational Combustion Lab.&nbsp;</p>\n                        </div>\n                    </div>\n\n\n\n\n\n\n                </div>\n            </div>\n        \n    \n</div></div></section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content6-4q",
+          "_isUserblock": true,
+          "_cid": "srXwjv8Y4G",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "padding-left": "0rem",
+              "padding-top": "1 rem",
+              "color": "#232323",
+              "text-align": "left"
+            },
+            ".mbr-text2": {
+              "color": "#232323",
+              "text-align": "left"
+            }
+          },
+          "_name": "content6",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"1\" value=\"18\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n\n\n            <div class=\"col-12col-md-8\">\n                <div class=\"media-container-row\">\n\n\n\n\n\n\n\n\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/mbr-1-228x114.png\" alt title>  \n                    </div>\n\n\n\n\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b><i>Dated: November 02, 2020</i></b><br><b>Passed PhD proficiency exam</b><br><b><br></b></p>\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">Passed PhD proficiency exam with specialization in Energy and Thermo-Fluid Systems from Department of Mechanical Engineering, Marquette University.&nbsp;</p>\n                        </div>\n                    </div>\n\n\n\n\n\n\n                </div>\n            </div>\n        \n    \n</div></div></section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "content6-4p",
