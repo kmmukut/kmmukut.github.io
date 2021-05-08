@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "github_site",
-    "currentPage": "index.html",
+    "currentPage": "Announcement.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -71,7 +71,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 180,
+    "uniqCompNum": 183,
     "versionPublish": "5.2.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -6053,6 +6053,68 @@
         "order": 3
       },
       "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "padding-left": "0rem",
+              "padding-top": "1 rem",
+              "color": "#232323",
+              "text-align": "left"
+            },
+            ".mbr-text2": {
+              "color": "#232323",
+              "text-align": "left"
+            }
+          },
+          "_name": "content6",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"1\" value=\"18\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n\n\n            <div class=\"col-12col-md-8\">\n                <div class=\"media-container-row\">\n\n\n\n\n\n\n\n\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"https://doi.org/10.1016/j.carbon.2021.04.065\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/paper-1.png\" alt=\"Mobirise\" title></a>  \n                    </div>\n\n\n\n\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b><i>Dated: April, 2021</i></b><br><a href=\"https://doi.org/10.1016/j.carbon.2021.04.065\" class=\"text-primary\" target=\"_blank\"><b>Paper on soot coalescence is accepted in Carbon</b></a><br></p>\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>My paper \"The coalescence of incipient soot clusters\" has been accepted in Carbon (Impact Factor: 8.8). This work is part of a collaboration between Dr. Eirini Goudeli of University of Melbourne and CCL. In this paper, the physics and chemistry of soot coalescence has been explored - for the first time - using molecular dynamics simulations. (Links: <a href=\"https://doi.org/10.1016/j.carbon.2021.04.065\" class=\"text-primary\" target=\"_blank\">Carbon</a> / <a href=\"assets/files/1-s2.0-S0008622321004486-main.pdf\" class=\"text-primary\">Accepted manuscript</a>)<br></p>\n                        </div>\n                    </div>\n\n\n\n\n\n\n                </div>\n            </div>\n        \n    \n</div></div></section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "content6-52",
+          "_isUserblock": true,
+          "_cid": "swLXLpynmH",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
         {
           "alias": false,
           "_styles": {
