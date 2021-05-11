@@ -7020,7 +7020,7 @@ section.lazy-placeholder:after {
   color: #1a1313;
 }
 .cid-scV1cUaSA3 {
-  padding-top: 7rem;
+  padding-top: 2rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
@@ -7052,6 +7052,33 @@ section.lazy-placeholder:after {
 .cid-scV1cUaSA3 item-text {
   color: #1a1313;
   text-align: center;
+}
+.cid-sx8wiEl2OQ {
+  padding-top: 4rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-sx8wiEl2OQ p {
+  color: #767676;
+}
+.cid-sx8wiEl2OQ .item:focus,
+.cid-sx8wiEl2OQ span:focus {
+  outline: none;
+}
+.cid-sx8wiEl2OQ .item {
+  padding-bottom: 3rem;
+  cursor: pointer;
+}
+.cid-sx8wiEl2OQ .item-wrapper {
+  position: relative;
+}
+.cid-sx8wiEl2OQ .item-btn,
+.cid-sx8wiEl2OQ h4,
+.cid-sx8wiEl2OQ h5 {
+  margin: 0;
+}
+.cid-sx8wiEl2OQ .item-content {
+  padding-top: 2rem;
 }
 .cid-sciG8QkPz1 {
   padding-top: 0px;
