@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "github_site",
-    "currentPage": "Resources.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -72,7 +72,7 @@
     ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 185,
-    "versionPublish": "5.2.0",
+    "versionPublish": "5.3.10",
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -96,7 +96,8 @@
     "cookiesAlert": false,
     "gdpr": false,
     "publishChangesOnly": true,
-    "google-analytics": ""
+    "google-analytics": "",
+    "mbrsiteDomain": "6hpxowt1ic"
   },
   "pages": {
     "CV.html": {
