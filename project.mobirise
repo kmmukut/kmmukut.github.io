@@ -28,13 +28,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
+        "#fafafa",
         "#3a0303",
         "#1a1313",
         "#b1b1b1",
         "#b3b3b3",
         "#333333",
-        "#4b4a3a",
-        "#1756f2"
+        "#4b4a3a"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -71,7 +71,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 185,
+    "uniqCompNum": 188,
     "versionPublish": "5.3.10",
     "imageResize": true,
     "screenshot": "screenshot.png",
