@@ -1,11 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Calistoga:400&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap);
-
-
-
-
-
 body {
   font-family: Rubik;
 }
@@ -3003,88 +2995,6 @@ section.lazy-placeholder:after {
 .cid-sbQ6ltvBU3 foot-menu-item {
   text-align: right;
 }
-.cid-sc5aV5JLYu {
-  padding-top: 90px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-sc5aV5JLYu .counter-container {
-  color: #767676;
-}
-.cid-sc5aV5JLYu .counter-container ol {
-  margin-bottom: 0;
-  padding-right: 0rem;
-  counter-reset: myCounter;
-}
-.cid-sc5aV5JLYu .counter-container ol li {
-  margin-bottom: 1rem;
-}
-.cid-sc5aV5JLYu .counter-container ol li {
-  list-style: none;
-  padding-left: .5rem;
-  padding-right: 0rem;
-}
-.cid-sc5aV5JLYu .counter-container ol li:before {
-  position: absolute;
-  left: 0px;
-  margin-top: -10px;
-  counter-increment: myCounter;
-  content: counter(myCounter);
-  display: inline-block;
-  text-align: center;
-  margin: 5px 5px;
-  line-height: 40px;
-  transition: all .2s;
-  color: #ffffff;
-  background: #232323;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-.cid-sc5aV5JLYu .mbr-text {
-  text-align: left;
-}
-.cid-sc58cVOzUC {
-  padding-top: 15px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-sc58cVOzUC .counter-container {
-  color: #767676;
-}
-.cid-sc58cVOzUC .counter-container ol {
-  margin-bottom: 0;
-  padding-right: 0rem;
-  counter-reset: myCounter;
-}
-.cid-sc58cVOzUC .counter-container ol li {
-  margin-bottom: 1rem;
-}
-.cid-sc58cVOzUC .counter-container ol li {
-  list-style: none;
-  padding-left: .5rem;
-  padding-right: 0rem;
-}
-.cid-sc58cVOzUC .counter-container ol li:before {
-  position: absolute;
-  left: 0px;
-  margin-top: -10px;
-  counter-increment: myCounter;
-  content: counter(myCounter);
-  display: inline-block;
-  text-align: center;
-  margin: 5px 5px;
-  line-height: 40px;
-  transition: all .2s;
-  color: #ffffff;
-  background: #232323;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-.cid-sc58cVOzUC .mbr-text {
-  text-align: left;
-}
 .cid-sbPUiYUACK .navbar {
   background: #b1b1b1;
   transition: none;
@@ -3484,6 +3394,88 @@ section.lazy-placeholder:after {
 .cid-sbPUiYUACK .nav-link:hover,
 .cid-sbPUiYUACK .dropdown-item:hover {
   color: #767676 !important;
+}
+.cid-sc5aV5JLYu {
+  padding-top: 90px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-sc5aV5JLYu .counter-container {
+  color: #767676;
+}
+.cid-sc5aV5JLYu .counter-container ol {
+  margin-bottom: 0;
+  padding-right: 0rem;
+  counter-reset: myCounter;
+}
+.cid-sc5aV5JLYu .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-sc5aV5JLYu .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+  padding-right: 0rem;
+}
+.cid-sc5aV5JLYu .counter-container ol li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 5px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #232323;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.cid-sc5aV5JLYu .mbr-text {
+  text-align: left;
+}
+.cid-sc58cVOzUC {
+  padding-top: 15px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-sc58cVOzUC .counter-container {
+  color: #767676;
+}
+.cid-sc58cVOzUC .counter-container ol {
+  margin-bottom: 0;
+  padding-right: 0rem;
+  counter-reset: myCounter;
+}
+.cid-sc58cVOzUC .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-sc58cVOzUC .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+  padding-right: 0rem;
+}
+.cid-sc58cVOzUC .counter-container ol li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 5px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #ffffff;
+  background: #232323;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.cid-sc58cVOzUC .mbr-text {
+  text-align: left;
 }
 .cid-sc5bl7EfVJ {
   padding-top: 15px;
