@@ -95,7 +95,7 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": false,
+    "publishChangesOnly": true,
     "google-analytics": "",
     "mbrsiteDomain": "6hpxowt1ic"
   },

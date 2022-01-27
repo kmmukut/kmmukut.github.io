@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "github_site",
-    "currentPage": "index.html",
+    "currentPage": "Resources.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -28,13 +28,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
-        "#fafafa",
         "#3a0303",
         "#1a1313",
         "#b1b1b1",
         "#b3b3b3",
         "#333333",
-        "#4b4a3a"
+        "#4b4a3a",
+        "#1756f2"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -71,8 +71,8 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 188,
-    "versionPublish": "5.3.10",
+    "uniqCompNum": 185,
+    "versionPublish": "5.2.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -95,9 +95,8 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": false,
-    "google-analytics": "",
-    "mbrsiteDomain": "6hpxowt1ic"
+    "publishChangesOnly": true,
+    "google-analytics": ""
   },
   "pages": {
     "CV.html": {
