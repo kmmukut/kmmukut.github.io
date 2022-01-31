@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "github_site",
-    "currentPage": "Photos.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -95,7 +95,7 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "google-analytics": "",
     "mbrsiteDomain": "ecjy29beyb"
   },
