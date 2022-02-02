@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "github_site",
-    "currentPage": "index.html",
+    "currentPage": "Photos.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -95,7 +95,7 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": false,
+    "publishChangesOnly": true,
     "google-analytics": "",
     "mbrsiteDomain": "ecjy29beyb"
   },
@@ -2117,7 +2117,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Exotic Cats of Istunbul",
+                "caption": "Exotic Cats of Istanbul",
                 "active": false
               },
               {
@@ -2130,7 +2130,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Exotic Cats of Istunbul",
+                "caption": "Exotic Cats of Istanbul",
                 "active": false
               },
               {
@@ -2143,7 +2143,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Istunbul",
+                "caption": "Istanbul",
                 "active": false
               },
               {
@@ -2156,7 +2156,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Istunbul",
+                "caption": "Istanbul",
                 "active": false
               },
               {
@@ -2169,7 +2169,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Old City, Istunbul",
+                "caption": "Old City, Istanbul",
                 "active": false
               },
               {
@@ -2182,7 +2182,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Hagia Sophia, Istunbul",
+                "caption": "Hagia Sophia, Istanbul",
                 "active": false
               },
               {
@@ -2221,7 +2221,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Istunbul",
+                "caption": "Istanbul",
                 "active": false
               },
               {
@@ -2247,7 +2247,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Istunbul",
+                "caption": "Istanbul",
                 "active": true
               }
             ]
