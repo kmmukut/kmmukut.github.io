@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "github_site",
-    "currentPage": "Photos.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -97,7 +97,11 @@
     "gdpr": false,
     "publishChangesOnly": true,
     "google-analytics": "",
-    "mbrsiteDomain": "3sysxzmesn"
+    "mbrsiteDomain": "3sysxzmesn",
+    "publishType": "local",
+    "gitHubName": "kmmukut",
+    "gitHubPath": "kmmukut",
+    "publishPath": "file:///Users/khaledmosharrafmukut/tweaks/Website/test"
   },
   "pages": {
     "CV.html": {
