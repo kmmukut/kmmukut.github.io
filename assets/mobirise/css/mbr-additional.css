@@ -7629,6 +7629,202 @@ section.lazy-placeholder:after {
   height: 40px;
   border-radius: 50%;
 }
+.cid-trwvcEgpse {
+  background-image: url("../../../assets/images/background3.jpg");
+}
+.cid-trwvcEgpse .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-trwvcEgpse .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-trwvcEgpse .number-wrap {
+  color: #ffffff;
+  text-align: center;
+}
+.cid-trwvcEgpse .number {
+  color: #ffffff;
+}
+.cid-trwvcEgpse .period {
+  display: block;
+}
+.cid-trwvcEgpse .dot {
+  display: none;
+}
+@media (max-width: 767px) {
+  .cid-trwvcEgpse .period {
+    font-size: 0.8rem;
+  }
+}
+.cid-trwvcEgpse .btn {
+  height: 100%;
+  margin: 0;
+}
+.cid-trwvcEgpse .mbr-section-btn {
+  margin-bottom: 1.2rem;
+}
+.cid-trwvcEgpse .mbr-section-title {
+  color: #ffffff;
+}
+.cid-trwvcEgpse .mbr-text {
+  color: #ffffff;
+}
+.cid-trwvcEgpse .icons-menu .soc-item {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.cid-trwvcEgpse .icons-menu .soc-item .mbr-iconfont {
+  font-size: 2rem;
+  display: flex;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  justify-content: center;
+  align-content: center;
+  transition: all 0.3s;
+}
+.cid-trwvcEgpse .icons-menu .soc-item .mbr-iconfont:before {
+  padding: 0.6rem;
+}
+.cid-trwvcEgpse .icons-menu .soc-item .mbr-iconfont:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.cid-trwu9yCErX {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-trwu9yCErX .mbr-overlay {
+  z-index: 1;
+}
+@media (min-width: 992px) {
+  .cid-trwu9yCErX .carousel {
+    min-height: 400px;
+  }
+  .cid-trwu9yCErX .carousel img {
+    max-height: 400px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-trwu9yCErX .carousel {
+    min-height: 260px;
+  }
+  .cid-trwu9yCErX .carousel img {
+    max-height: 260px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 767px) {
+  .cid-trwu9yCErX .carousel {
+    min-height: 220px;
+  }
+  .cid-trwu9yCErX .carousel img {
+    max-height: 220px;
+    object-fit: contain;
+  }
+  .cid-trwu9yCErX .container .carousel-control {
+    margin-bottom: 0;
+  }
+  .cid-trwu9yCErX .content-slider-wrap {
+    width: 100% !important;
+  }
+}
+.cid-trwu9yCErX .carousel,
+.cid-trwu9yCErX .carousel-inner {
+  display: flex;
+  align-items: center;
+}
+.cid-trwu9yCErX .item-wrapper {
+  width: 100%;
+}
+.cid-trwu9yCErX .carousel-caption {
+  bottom: 40px;
+}
+.cid-trwu9yCErX .carousel-control:hover {
+  background: #1b1b1b;
+  color: #fff;
+  opacity: 1;
+}
+.cid-trwu9yCErX .mobi-mbri-arrow-next {
+  margin-left: 5px;
+}
+.cid-trwu9yCErX .mobi-mbri-arrow-prev {
+  margin-right: 5px;
+}
+.cid-trwu9yCErX .container .carousel-indicators {
+  margin-bottom: 3px;
+}
+.cid-trwu9yCErX .carousel-control {
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -1.5rem;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.cid-trwu9yCErX .carousel-control.carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-trwu9yCErX .carousel-control.carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+@media (max-width: 767px) {
+  .cid-trwu9yCErX .carousel-control {
+    top: auto;
+    bottom: 1rem;
+  }
+}
+.cid-trwu9yCErX .carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1.5rem !important;
+}
+.cid-trwu9yCErX .carousel-indicators li {
+  max-width: 15px;
+  height: 15px;
+  width: 15px;
+  max-height: 15px;
+  margin: 3px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.cid-trwu9yCErX .carousel-indicators li.active,
+.cid-trwu9yCErX .carousel-indicators li:hover {
+  opacity: 0.9;
+}
+.cid-trwu9yCErX .carousel-indicators li::after,
+.cid-trwu9yCErX .carousel-indicators li::before {
+  content: none;
+}
+.cid-trwu9yCErX .carousel-indicators.ie-fix {
+  left: 50%;
+  display: block;
+  width: 60%;
+  margin-left: -30%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .cid-trwu9yCErX .carousel-indicators {
+    display: none !important;
+  }
+}
 .cid-sbQ6ltvBU3 {
   padding-top: 0px;
   padding-bottom: 60px;
