@@ -5242,7 +5242,7 @@ section.lazy-placeholder:after {
 .cid-sXJ8uZyDfl {
   padding-top: 90px;
   padding-bottom: 15px;
-  background-color: #efefef;
+  background-color: #ffffff;
 }
 @media (min-width: 992px) {
   .cid-sXJ8uZyDfl .mbr-figure {
@@ -5261,6 +5261,31 @@ section.lazy-placeholder:after {
   text-align: left;
 }
 .cid-sXJ8uZyDfl .mbr-text2 {
+  color: #232323;
+  text-align: left;
+}
+.cid-trvP6av38L {
+  padding-top: 90px;
+  padding-bottom: 15px;
+  background-color: #efefef;
+}
+@media (min-width: 992px) {
+  .cid-trvP6av38L .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-trvP6av38L .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-trvP6av38L .mbr-text {
+  padding-left: 0rem;
+  padding-top: 1 rem;
+  color: #232323;
+  text-align: left;
+}
+.cid-trvP6av38L .mbr-text2 {
   color: #232323;
   text-align: left;
 }
