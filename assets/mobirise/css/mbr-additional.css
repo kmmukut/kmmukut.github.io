@@ -4515,10 +4515,13 @@ section.lazy-placeholder:after {
 .cid-sc3CfCeHNU foot-menu-item {
   text-align: right;
 }
-.cid-sXkBfw7WLf {
+.cid-urSfbuoboT {
   padding-top: 90px;
-  padding-bottom: 105px;
+  padding-bottom: 90px;
   background-color: #efefef;
+}
+.cid-urSfbuoboT img {
+  width: auto;
 }
 .cid-sbPUiYUACK .navbar {
   background: #b1b1b1;
@@ -6409,7 +6412,7 @@ section.lazy-placeholder:after {
   color: #767676 !important;
 }
 .cid-urNtGNLvg3 {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 0rem;
   background-color: #efefef;
 }
