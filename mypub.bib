@@ -1,3 +1,13 @@
+% important notes:
+% 1. The keywords are used to filter the publications based on the type of publication.
+% 2. The month field should be in the format of the first three letters of the month.
+% 3. articles and conference articles are filtered based on the keyword "article"
+% 4. conference presentation are filtered based on the keyword "oral"
+% 5. conference posters are filtered based on the keyword "poster"
+% 6. theses are filtered based on the keyword "thesis"
+% 7. articles in preparation are filtered based on the keyword "inprep"
+%%-------------------------------------------------------------------------------------%%
+
 % Journal Ariticles
 
 @article{Hasan2017Aug,
@@ -10,7 +20,8 @@
 	year = {2017},
 	month = aug,
 	issn = {2408-8617},
-	doi = {10.3329/jce.v29i1.33820}
+	doi = {10.3329/jce.v29i1.33820},
+  keywords = {article}
 }
 
 
@@ -24,7 +35,8 @@
 	month = jun,
 	issn = {0094-243X},
 	publisher = {AIP Publishing},
-	doi = {10.1063/1.4984731}
+	doi = {10.1063/1.4984731},
+  keywords = {article}
 }
 
 @article{Hasan2018Mar,
@@ -38,6 +50,7 @@
 	month = mar,
 	issn = {1750-0443},
 	publisher = {John Wiley {\&} Sons, Ltd},
+  keywords = {article},
 	doi = {10.1049/mnl.2017.0198}
 }
 
@@ -51,6 +64,7 @@
 	year = {2018},
 	month = jun,
 	issn = {2397-7914},
+  keywords = {article},
 	publisher = {SAGE Publications},
 	doi = {10.1177/2397791418802498}
 }
@@ -61,9 +75,10 @@
 	journal = {Combust. Theory. Model.},
 	year = {2020},
 	month = may,
+  keywords = {article},
 	publisher = {Taylor {\&} Francis},
 	url = {https://www.tandfonline.com/doi/full/10.1080/13647830.2020.1721561},
-    doi = {10.1080/13647830.2020.1721561}
+  doi = {10.1080/13647830.2020.1721561}
 }
 
 @article{Sharma2021Aug,
@@ -74,6 +89,7 @@
 	pages = {215--225},
 	year = {2021},
 	month = aug,
+  keywords = {article},
 	issn = {0008-6223},
 	publisher = {Pergamon},
 	doi = {10.1016/j.carbon.2021.04.065}
@@ -87,6 +103,7 @@
 	pages = {108325},
 	year = {2022},
 	month = jul,
+  keywords = {article},
 	issn = {0010-4655},
 	publisher = {North-Holland},
 	doi = {10.1016/j.cpc.2022.108325}
@@ -100,6 +117,7 @@
 	pages = {132197},
 	year = {2024},
 	month = oct,
+  keywords = {article},
 	issn = {0016-2361},
 	publisher = {Elsevier},
 	doi = {10.1016/j.fuel.2024.132197}
@@ -114,15 +132,15 @@
 	pages = {5175--5187},
 	year = {2024},
 	month = jul,
+  keywords = {article},
 	issn = {1089-5639},
 	publisher = {American Chemical Society},
 	doi = {10.1021/acs.jpca.4c01548}
 }
 
 
-% Conference Proceedings
-% month should be first three letters (important)
-% keyword={article, poster, oral}
+
+% Conference Presentations
 
 @inproceedings{Mukut2019March,
   title     = {An Investigation of Soot Evolution in High-pressure Spray Combustion},
@@ -132,10 +150,10 @@
   booktitle = {11th US National Combustion Meeting},
   address   = {Pasadena, CA},
   pages     = {1--9},
+  url       = {https://epublications.marquette.edu/mechengin_fac/310/},
   keywords  = {article, oral}
 }
 
-% Conference Presentations
 @inproceedings{Mukut2017Jet,
   title     = {Numerical Study of Turbulent Co-Axial Free Jets},
   author    = {Mukut, K. M. and Hasan, Nasim and Ali, M.T.},
@@ -153,6 +171,7 @@
   month     = apr,
   booktitle = {2018 Spring Technical Meeting of Central States Section of the Combustion Institute},
   keywords  = {oral,article},
+  url       = {https://www.researchgate.net/publication/333356994_A_Sensitivity_Study_on_Soot_and_NOx_Formation_in_High_Pressure_Combustion_System},
   address   = {Minneapolis, MN, USA}
 }
 
@@ -182,6 +201,7 @@
   author    = {Mukut, K. M. and Sharma, Akaash and Goudeli, Eirini and Roy, Somesh},
   year      = {2021},
   month     = may,
+  url       = {https://www.researchgate.net/publication/353548199_A_Closer_Look_into_the_Formation_of_Soot_Particles_A_Molecular_Dynamics_Study/stats},
   booktitle = {12th U.S. National Combustion Meeting},
   address   = {Texas A{\&}M University, College Station, TX, USA},
   keywords  = {oral, article}
@@ -197,8 +217,8 @@
   keywords  = {oral, article}
 }
 
-@inproceedings{Dey2024,
-  author    = {Dey, T. and Mukut, K.M and Roy, S.P},
+@inproceedings{Day2024,
+  author    = {Day, T. and Mukut, K.M and Roy, S.P},
   title     = {Utilizing Machine Learning to Analyze Soot Morphology in Microscopic Images},
   year      = {2024},
   booktitle = {Bulletin of the American Physical Society},
@@ -259,6 +279,28 @@
   title  = {Effect of Radiation and EGR on Pollutant Formation in High-Pressure Constant Volume Spray Combustion},
   author = {Mukut, K. M.},
   year   = {2019},
+  type   = {{MS} thesis},
   url    = {https://epublications.marquette.edu/theses_open/543/},
-  school = {Marquette University}
+  school = {Marquette University},
+  keywords = {thesis}
 }
+
+@phdthesis{mukut2024soot,
+  author       = {Khaled Mosharraf Mukut},
+  title        = {Fundamental Exploration of Soot Formation and Morphology from a Molecular Modeling Perspective (in Preparation)},
+  school       = {Marquette University},
+  year         = {2024},
+  type         = {{PhD} dissertation},
+  address      = {Milwaukee, Wisconsin},
+  keywords     = {inprep,thesis}
+}
+
+% Articles in Preparation
+@article{mukut2024surface,
+  author       = {Khaled Mosharraf Mukut and Anindya Ganguly and Eirini Goudeli and Georgios A. Kelesidis and Somesh P. Roy},
+  title        = {Surface and Pore Properties of Primary Soot Particles Based on Molecular Dynamics Simulations},
+  journal      = {TBD},  
+  year         = {2024},
+  keywords     = {inprep}
+}
+
