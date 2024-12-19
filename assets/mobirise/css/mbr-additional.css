@@ -2,7 +2,7 @@ body {
   font-family: Rubik;
 }
 .display-1 {
-  font-family: 'Calistoga', display;
+  font-family: 'Playfair Display', serif;
   font-size: 4.25rem;
   font-display: swap;
 }
@@ -10,7 +10,7 @@ body {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Calistoga', display;
+  font-family: 'Playfair Display', serif;
   font-size: 3rem;
   font-display: swap;
 }
@@ -26,7 +26,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Calistoga', display;
+  font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
   font-display: swap;
 }
@@ -34,7 +34,7 @@ body {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 1rem;
   font-display: swap;
 }
@@ -540,7 +540,7 @@ a:hover {
   border-radius: 100px;
 }
 .form-control {
-  font-family: 'Merriweather', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 1rem;
   font-display: swap;
 }
@@ -2904,7 +2904,7 @@ section.lazy-placeholder:after {
 .cid-sbRouuIJZP .mbr-text,
 .cid-sbRouuIJZP .mbr-section-btn {
   text-align: left;
-  color: #19ffa9;
+  color: #0ee07c;
 }
 .cid-sbRouuIJZP H1 {
   text-align: left;
@@ -3396,7 +3396,7 @@ section.lazy-placeholder:after {
   color: #767676 !important;
 }
 .cid-urYC759ZPb {
-  padding-top: 90px;
+  padding-top: 105px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
