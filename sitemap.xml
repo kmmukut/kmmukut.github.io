@@ -21,9 +21,6 @@
 		<loc>https://kmmukut.github.io/CV.html</loc>
 	</url>
 	<url>
-		<loc>https://kmmukut.github.io/Interest.html</loc>
-	</url>
-	<url>
 		<loc>https://kmmukut.github.io/Education.html</loc>
 	</url>
 	<url>
@@ -34,5 +31,8 @@
 	</url>
 	<url>
 		<loc>https://kmmukut.github.io/Resources.html</loc>
+	</url>
+	<url>
+		<loc>https://kmmukut.github.io/interest.html</loc>
 	</url>
 </urlset>
