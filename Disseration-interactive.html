@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=ucFXCY"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=ucFXCY" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=EZyr1E"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=EZyr1E" type="text/css">
 
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -451,7 +451,7 @@
 
 </section>
 
-<section once="footers" class="cid-v6HH302s4c" id="footer7-8m">
+<section once="footers" class="cid-v6HH302s4c" id="footer7-9v">
 
     
 
@@ -459,14 +459,19 @@
 
     <div class="container">
         <div class="media-container-row align-center mbr-white">
-            
+
+            <!-- Footer Navigation -->
             <div class="row row-links">
                 <ul class="foot-menu">
+
                     
+
                     
+
                     
+
                     
-                    
+
                     
 
                 <li class="foot-menu-item mbr-fonts-style display-7">
@@ -482,54 +487,56 @@
                     </li></ul>
             </div>
 
+            <!-- Social Links -->
             <div class="row social-row">
                 <div class="social-list align-right pb-2">
-                    
-                    
-                    
-                    
 
                     
 
                     
 
                     
+
                     
+
+                    
+
                     
 
                     
 
                 <div class="soc-item">
-                        <a href="https://scholar.google.com/citations?user=Jloes5MAAAAJ&hl=en" target="_blank">
+                        <a href="https://scholar.google.com/citations?user=Jloes5MAAAAJ&hl=en" target="_blank" aria-label="Google Scholar">
                             <span class="mbr-iconfont mbr-iconfont-social socicon-googlescholar socicon"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.researchgate.net/profile/Khaled_Mukut" target="_blank">
+                        <a href="https://www.researchgate.net/profile/Khaled_Mukut" target="_blank" aria-label="ResearchGate">
                             <span class="mbr-iconfont mbr-iconfont-social socicon-researchgate socicon"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://github.com/kmmukut" target="_blank">
+                        <a href="https://github.com/kmmukut" target="_blank" aria-label="GitHub">
                             <span class="mbr-iconfont mbr-iconfont-social mbri-github"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.linkedin.com/in/kmmukut/" target="_blank">
+                        <a href="https://www.linkedin.com/in/kmmukut/" target="_blank" aria-label="LinkedIn">
                             <span class="mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://facebook.com/kmmukut" target="_blank">
+                        <a href="https://facebook.com/kmmukut" target="_blank" aria-label="Facebook">
                             <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.instagram.com/kmmukut" target="_blank">
+                        <a href="https://www.instagram.com/kmmukut/" target="_blank" aria-label="Instagram">
                             <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.messenger.com/t/kmmukut" target="_blank">
+                        <a href="https://www.messenger.com/t/kmmukut" target="_blank" aria-label="Messenger">
                             <span class="mbr-iconfont mbr-iconfont-social socicon-messenger socicon"></span>
                         </a>
                     </div></div>
             </div>
 
+            <!-- Name and Affiliation -->
             <div class="row row-copirayt">
                 <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
                     <strong>Khaled Mosharraf Mukut, Ph.D.</strong><br>
@@ -537,13 +544,27 @@
                 </p>
             </div>
 
+            <!-- Copyright -->
             <div class="row row-copirayt mt-3">
                 <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7" style="opacity: 0.6;">
-                    © Copyright 2025 - All Rights Reserved
+                    © Copyright <span class="copyright-year">2026</span> - All Rights Reserved
                 </p>
             </div>
+
         </div>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var yearElements = document.querySelectorAll(".copyright-year");
+            var currentYear = new Date().getFullYear();
+
+            yearElements.forEach(function (element) {
+                element.textContent = currentYear;
+            });
+        });
+    </script>
+
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/popper/popper.min.js"></script>  <script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
