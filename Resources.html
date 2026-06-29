@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=NKNZpA"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=NKNZpA" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=emjZKv"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=emjZKv" type="text/css">
 
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -83,12 +83,12 @@
                     <a class="nav-link link text-black display-4" href="index.html" aria-expanded="false">Home</a>
                 </li>
 
-                <li class="nav-item dropdown open">
-                    <a class="nav-link link dropdown-toggle text-black display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="true">Profile</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link link dropdown-toggle text-black display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">Profile</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item text-black display-4" href="Experience.html" aria-expanded="false">Experience</a>
                         <a class="dropdown-item text-black display-4" href="Education.html" aria-expanded="false">Education</a>
-                        <div class="dropdown-divider" style="margin-top: 4px; margin-bottom: 4px;"></div>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item text-black display-4" href="CV.html" aria-expanded="false">Interactive CV</a>
                         <a class="dropdown-item text-black text-primary display-4" href="assets/files/academic_cv.pdf" target="_blank" aria-expanded="false">Download Academic CV</a>
                         <a class="dropdown-item text-black text-primary display-4" href="assets/files/kmmukut_resume.pdf" target="_blank" aria-expanded="false">Download 1-Page CV</a>                    
@@ -144,17 +144,37 @@
     </div>
 
     <div class="row">
+
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card-wrapper" style="background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; height: 100%; border-top: 4px solid #007bff;">
+                <div class="card-img" style="height: 200px; overflow: hidden;">
+                    <a href="page12.html"><img src="assets/images/57800.gif" alt="Multiphase Reacting-Flow CFD Solver" style="width: 100%; height: 100%; object-fit: cover;"></a>
+                </div>
+                <div class="card-box p-4">
+                    <h4 class="card-title mbr-fonts-style pb-2 display-5">Multiphase Reacting-Flow CFD Solver</h4>
+                    <h5 class="card-subtitle mbr-fonts-style pb-3 display-7 text-primary">CFD Solver Development | Fortran, C++, Python, MPI</h5>
+                    <p class="mbr-text mbr-fonts-style display-7">
+                        A mature multiphase CFD research solver for Lagrangian-Eulerian reacting-flow simulations. The solver supports soot, radiation, flamelet-based combustion, and both compressible and incompressible flow capabilities, with MPI-based parallel infrastructure for large-scale simulations.
+                        <br><br>
+                        Current development includes ongoing unpublished research, so the full codebase, latest models, and validation results are not publicly released. An earlier representative public snapshot of related solver infrastructure is available through the LowMachReact-Hex documentation.
+                    </p>
+                    <div class="mbr-section-btn mt-3">
+                        <a href="https://kmmukut.github.io/LowMachReact-Hex/program/lowmach_react_hex.html" class="btn btn-sm btn-primary display-4" target="_blank">View Documentation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card-wrapper" style="background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; height: 100%; border-top: 4px solid #28a745;">
+            <div class="card-wrapper" style="background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; height: 100%; border-top: 4px solid #007bff;">
                 <div class="card-img" style="height: 200px; overflow: hidden;">
-                   <img src="assets/images/pypack-700x382.webp" alt="PyPack" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="assets/images/pypack-700x382.webp" alt="PyPack" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
                 <div class="card-box p-4">
                     <h4 class="card-title mbr-fonts-style pb-2 display-5">PyPack</h4>
-                    <h5 class="card-subtitle mbr-fonts-style pb-3 display-7 text-success">Molecular System Builder</h5>
+                    <h5 class="card-subtitle mbr-fonts-style pb-3 display-7 text-primary">Molecular System Builder</h5>
                     <p class="mbr-text mbr-fonts-style display-7">A Python toolkit for building molecular simulation systems. Simplifies the creation of complex packings for LAMMPS/MD simulations.</p>
-                    <div class="mbr-section-btn mt-3"><a href="https://github.com/kmmukut/PyPack" class="btn btn-sm btn-success display-4" target="_blank">View on GitHub</a></div>
+                    <div class="mbr-section-btn mt-3"><a href="https://github.com/kmmukut/PyPack" class="btn btn-sm btn-primary display-4" target="_blank">View on GitHub</a></div>
                 </div>
             </div>
         </div>
@@ -174,43 +194,43 @@
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card-wrapper" style="background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; height: 100%; border-top: 4px solid #17a2b8;">
+            <div class="card-wrapper" style="background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; height: 100%; border-top: 4px solid #007bff;">
                 <div class="card-img" style="height: 200px; overflow: hidden;">
-                    <img src="assets/images/309535459-f16ce153-846b-4b9e-8fce-3ecd1809c17a.webp" alt="SFA" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="assets/images/309535459-f16ce153-846b-4b9e-8fce-3ecd1809c17a.webp" alt="StereoFractAnalyzer" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
                 <div class="card-box p-4">
                     <h4 class="card-title mbr-fonts-style pb-2 display-5">StereoFractAnalyzer</h4>
-                    <h5 class="card-subtitle mbr-fonts-style pb-3 display-7" style="color: #17a2b8;">Fractal Analysis</h5>
+                    <h5 class="card-subtitle mbr-fonts-style pb-3 display-7 text-primary">Fractal Analysis</h5>
                     <p class="mbr-text mbr-fonts-style display-7">Python package for analyzing the fractal dimension of 3D surfaces and 2D images. Useful for material science and surface morphology.</p>
-                    <div class="mbr-section-btn mt-3"><a href="https://pypi.org/project/StereoFractAnalyzer/" class="btn btn-sm btn-info display-4" target="_blank">View on PyPI</a></div>
+                    <div class="mbr-section-btn mt-3"><a href="https://pypi.org/project/StereoFractAnalyzer/" class="btn btn-sm btn-primary display-4" target="_blank">View on PyPI</a></div>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card-wrapper" style="background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; height: 100%; border-top: 4px solid #ffc107;">
+            <div class="card-wrapper" style="background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; height: 100%; border-top: 4px solid #007bff;">
                 <div class="card-img" style="height: 200px; overflow: hidden;">
                     <img src="assets/images/icon2-transformed-288x288.webp" alt="ChronoCode" style="width: 100%; height: 100%; object-fit: contain; padding: 20px; background: #f8f9fa;">
                 </div>
                 <div class="card-box p-4">
                     <h4 class="card-title mbr-fonts-style pb-2 display-5">ChronoCode</h4>
-                    <h5 class="card-subtitle mbr-fonts-style pb-3 display-7 text-warning">Security Tool</h5>
+                    <h5 class="card-subtitle mbr-fonts-style pb-3 display-7 text-primary">Security Tool</h5>
                     <p class="mbr-text mbr-fonts-style display-7">A lightweight, open-source 2FA/TOTP generator. Available as a PWA and browser extension for secure authentication.</p>
-                    <div class="mbr-section-btn mt-3"><a href="https://kmmukut.github.io/ChronoCode/" class="btn btn-sm btn-warning display-4 text-white" target="_blank">Launch App</a></div>
+                    <div class="mbr-section-btn mt-3"><a href="https://kmmukut.github.io/ChronoCode/" class="btn btn-sm btn-primary display-4" target="_blank">Launch App</a></div>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card-wrapper" style="background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; height: 100%; border-top: 4px solid #dc3545;">
+            <div class="card-wrapper" style="background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; height: 100%; border-top: 4px solid #007bff;">
                 <div class="card-img" style="height: 200px; overflow: hidden;">
-                    <img src="assets/images/mbr.webp" alt="Air Quality" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="assets/images/mbr.webp" alt="Air Quality Viz" style="width: 100%; height: 100%; object-fit: cover;">
                 </div>
                 <div class="card-box p-4">
                     <h4 class="card-title mbr-fonts-style pb-2 display-5">Air Quality Viz</h4>
-                    <h5 class="card-subtitle mbr-fonts-style pb-3 display-7 text-danger">Data Visualization</h5>
+                    <h5 class="card-subtitle mbr-fonts-style pb-3 display-7 text-primary">Data Visualization</h5>
                     <p class="mbr-text mbr-fonts-style display-7">Interactive dashboard monitoring air quality near Marquette University Engineering Hall. Visualize live sensor data.</p>
-                    <div class="mbr-section-btn mt-3"><a href="https://kmmukut.github.io/EntangledAir/" class="btn btn-sm btn-danger display-4" target="_blank">View Dashboard</a></div>
+                    <div class="mbr-section-btn mt-3"><a href="https://kmmukut.github.io/EntangledAir/" class="btn btn-sm btn-primary display-4" target="_blank">View Dashboard</a></div>
                 </div>
             </div>
         </div>
@@ -331,7 +351,6 @@
 
 </div>
 <!-- Place your own code above -->
-
 </section>
 
 <section once="footers" class="cid-v6HH302s4c" id="footer7-8m">
@@ -422,13 +441,9 @@
 
             <div class="row row-copirayt mt-3">
                 <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7" style="opacity: 0.6;">
-                    © Copyright <span id="copyright-year">2026</span> - All Rights Reserved
+                    © Copyright 2025 - All Rights Reserved
                 </p>
             </div>
-            
-            <script>
-                document.getElementById("copyright-year").textContent = new Date().getFullYear();
-            </script>
         </div>
     </div>
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/popper/popper.min.js"></script>  <script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
